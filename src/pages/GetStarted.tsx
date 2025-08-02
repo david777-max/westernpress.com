@@ -46,7 +46,7 @@ const GetStarted: React.FC = () => {
             transition={{ delay: 0.6, duration: 0.5 }}
           >
             <MessageCircle className="w-5 h-5 mr-2" />
-            WhatsApp: +1 (580) 609 4589
+            WhatsApp: +1 (512) 704 9060
           </motion.a>
         </div>
       </div>
