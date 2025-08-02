@@ -4,8 +4,14 @@ import { motion } from 'framer-motion';
 
 const GetStarted: React.FC = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] text-center relative overflow-hidden">
+    <section className="relative py-20 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] text-center overflow-hidden">
+      {/* Background pattern */}
       <div className="absolute top-0 left-0 w-full h-full bg-[url('/background-pattern.svg')] opacity-10 bg-cover" />
+
+      {/* Fashion background images */}
+      <div className="absolute inset-0 z-0 bg-[url('/fashion-banner.jpg')] bg-cover bg-center opacity-20 mix-blend-multiply" />
+      <div className="absolute bottom-0 right-0 w-64 h-64 bg-[url('/model-pose.png')] bg-contain bg-no-repeat opacity-30 hidden md:block" />
+
       <div className="relative z-10 container mx-auto px-6 max-w-2xl">
         <motion.h2 
           className="text-4xl md:text-5xl font-extrabold mb-6 text-gray-900"
@@ -15,6 +21,7 @@ const GetStarted: React.FC = () => {
         >
           Ready to Get Started?
         </motion.h2>
+
         <motion.p
           className="text-lg md:text-xl text-gray-700 mb-10"
           initial={{ opacity: 0, y: 20 }}
