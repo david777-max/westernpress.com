@@ -96,7 +96,7 @@ const Home: React.FC = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
               <Link to="/how-it-works" className="btn-secondary text-lg px-8 py-4 text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400">
-                Learn How It Works
+                Learn How It Works?
               </Link>
             </div>
             <div className="mt-8 flex items-center justify-center space-x-8 text-sm text-gray-500 dark:text-gray-400">
@@ -152,7 +152,7 @@ const Home: React.FC = () => {
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              How It Works
+              How It Works?
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               Our streamlined process gets you from application to offer in record time
