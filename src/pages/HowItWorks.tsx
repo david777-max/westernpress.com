@@ -417,7 +417,7 @@ const HowItWorks: React.FC = () => {
             </Link>
           </div>
           <p className="text-sm opacity-75 mt-4">
-            WhatsApp: +1 (512) 704-9060 | Available 24/7
+            Available 24/7
           </p>
         </div>
       </section>

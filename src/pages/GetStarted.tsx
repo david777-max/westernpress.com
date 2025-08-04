@@ -42,19 +42,6 @@ const GetStarted: React.FC = () => {
             <Mail className="w-5 h-5 mr-2" />
             david@westernpress.com.au
           </motion.a>
-
-          <motion.a 
-            href="https://wa.me/15806094589" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="flex items-center px-6 py-3 bg-green-600 text-white rounded-full shadow-lg hover:bg-green-700 transition transform hover:scale-105"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6, duration: 0.5 }}
-          >
-            <MessageCircle className="w-5 h-5 mr-2" />
-            WhatsApp: +1 (512) 704 9060
-          </motion.a>
         </div>
       </div>
     </section>
