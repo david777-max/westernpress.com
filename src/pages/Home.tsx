@@ -247,14 +247,6 @@ const Home: React.FC = () => {
             <Link to="/get-started" className="bg-white text-blue-600 hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg shadow-lg transition-all">
               Get Started Today <ArrowRight className="ml-2 h-5 w-5 inline" />
             </Link>
-            <a
-              href="https://wa.me/15127049060"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary border-white text-white hover:bg-white hover:text-blue-600"
-            >
-              Talk to Us on WhatsApp
-            </a>
           </div>
         </div>
       </section>

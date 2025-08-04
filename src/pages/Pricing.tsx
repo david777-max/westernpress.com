@@ -300,14 +300,6 @@ const Pricing: React.FC = () => {
               Get Started Now
               <ArrowRight className="ml-2 h-5 w-5 inline" />
             </Link>
-            <a 
-              href="https://wa.me/15127049060"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary border-white text-white hover:bg-white hover:text-blue-600"
-            >
-              Quick Start? Chat on WhatsApp
-            </a>
           </div>
         </div>
       </section>

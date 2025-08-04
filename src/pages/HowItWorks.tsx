@@ -403,15 +403,6 @@ const HowItWorks: React.FC = () => {
             No upfront fees, no risk - we only succeed when you do.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a 
-              href="https://wa.me/15127049060" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-white text-[#00c896] hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center"
-            >
-              Start Your Job Search
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </a>
             <Link to="/pricing" className="border-2 border-white text-white hover:bg-white hover:text-[#00c896] font-semibold py-4 px-8 rounded-lg transition-all duration-200">
               View Pricing Details
             </Link>
