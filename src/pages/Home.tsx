@@ -123,7 +123,7 @@ const Home: React.FC = () => {
           <div className="mt-10 flex justify-center gap-10 text-sm text-gray-600 dark:text-gray-400">
             <div className="flex items-center">
               <Clock className="h-4 w-4 mr-2" />
-              15-20 Day Guarantee
+              15 Day Guarantee
             </div>
             <div className="flex items-center">
               <Users className="h-4 w-4 mr-2" />
