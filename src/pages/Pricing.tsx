@@ -19,8 +19,8 @@ const Pricing: React.FC = () => {
       answer: 'Yes, That is possible, but currently, we focus on US-based positions and developers authorized to work in the United States. This includes US citizens, permanent residents, and those with valid work authorization (H1B, EAD, etc.).'
     },
     {
-      question: 'How long does the 30% fee last?',
-      answer: 'Our 30% fee is collected only until the candidate’s contract end date.'
+      question: 'How long does the 25% fee last?',
+      answer: 'Our 25% fee is collected only until the candidate’s contract end date.'
     },
     {
       question: 'What if I want to change jobs after being placed?',
@@ -83,7 +83,7 @@ const Pricing: React.FC = () => {
                 Simple, Transparent Pricing
               </h2>
               <p className="text-xl text-gray-600 dark:text-gray-300">
-                Our 70/30 income split model aligns our success with yours
+                Our 75/25 income split model aligns our success with yours
               </p>
             </div>
 
@@ -91,13 +91,13 @@ const Pricing: React.FC = () => {
               {/* Your Share */}
               <div className="card p-8 text-center border-2 border-[#00c896]">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-[#00c896] text-white rounded-full mb-6">
-                  <span className="text-2xl font-bold">70%</span>
+                  <span className="text-2xl font-bold">75%</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                   You Keep
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  70% of your salary goes directly to you, permanently
+                  75% of your salary goes directly to you, permanently
                 </p>
                 <ul className="space-y-2 text-left">
                   <li className="flex items-center text-gray-600 dark:text-gray-300">
@@ -118,13 +118,13 @@ const Pricing: React.FC = () => {
               {/* Our Share */}
               <div className="card p-8 text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 rounded-full mb-6">
-                  <span className="text-2xl font-bold">30%</span>
+                  <span className="text-2xl font-bold">25%</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                   We Earn
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  30%
+                  25%
                 </p>
                 <ul className="space-y-2 text-left">
                   <li className="flex items-center text-gray-600 dark:text-gray-300">
@@ -173,18 +173,18 @@ const Pricing: React.FC = () => {
             {/* Example Calculation */}
             <div className="card p-8 bg-blue-50 dark:bg-blue-900/20">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">
-                Example: $150K Annual Salary
+                Example: $160K Annual Salary
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#00c896] mb-2">$8,750</div>
+                  <div className="text-3xl font-bold text-[#00c896] mb-2">$10,000</div>
                   <div className="text-gray-600 dark:text-gray-300">Your Monthly Take-Home</div>
-                  <div className="text-sm text-gray-500 dark:text-gray-400">(70% of $12,500)</div>
+                  <div className="text-sm text-gray-500 dark:text-gray-400">(75% of $12,500)</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">$3,750</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$3,300</div>
                   <div className="text-gray-600 dark:text-gray-300">Our Monthly Fee</div>
-                  <div className="text-sm text-gray-500 dark:text-gray-400">(30% for 12 months)</div>
+                  <div className="text-sm text-gray-500 dark:text-gray-400">(25% for 12 months)</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-500 mb-2">$12,500</div>

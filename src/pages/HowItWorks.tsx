@@ -26,7 +26,7 @@ const HowItWorks: React.FC = () => {
       description: 'Complete our quick 5-minute onboarding process with a straightforward performance-based contract.',
       details: [
         'No upfront fees or hidden costs',
-        'Clear 70/30 income split structure',
+        'Clear 75/25 income split structure',
         'Cancel anytime with 30-day notice',
         'Legal protection for both parties'
       ]
@@ -361,11 +361,11 @@ const HowItWorks: React.FC = () => {
                   <div className="space-y-4">
                     <div className="flex justify-between items-center p-4 bg-green-50 dark:bg-green-900/20 rounded-lg">
                       <span className="font-semibold text-gray-900 dark:text-white">Your Monthly Take-Home:</span>
-                      <span className="text-xl font-bold text-[#00c896]">$9,333</span>
+                      <span className="text-xl font-bold text-[#00c896]">$10,000</span>
                     </div>
                     <div className="flex justify-between items-center p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
                       <span className="font-semibold text-gray-900 dark:text-white">Our Monthly Fee:</span>
-                      <span className="text-xl font-bold text-blue-600">$4,000</span>
+                      <span className="text-xl font-bold text-blue-600">$3,300</span>
                     </div>
                     <div className="flex justify-between items-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg border-2 border-gray-200 dark:border-gray-600">
                       <span className="font-semibold text-gray-900 dark:text-white">Total Monthly Gross:</span>
@@ -377,7 +377,7 @@ const HowItWorks: React.FC = () => {
                   <div className="text-center">
                     <DollarSign className="h-16 w-16 text-[#00c896] mx-auto mb-4" />
                     <p className="text-gray-600 dark:text-gray-300 mb-4">
-                      You keep 70% of your salary permanently. We earn 30%.
+                      You keep 75% of your salary permanently. We earn 25%.
                     </p>
                     <div className="bg-[#00c896]/10 p-4 rounded-lg">
                       <p className="text-sm text-[#00c896] font-semibold">
