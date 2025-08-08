@@ -19,8 +19,8 @@ const Pricing: React.FC = () => {
       answer: 'Yes, That is possible, but currently, we focus on US-based positions and developers authorized to work in the United States. This includes US citizens, permanent residents, and those with valid work authorization (H1B, EAD, etc.).'
     },
     {
-      question: 'How long does the 15% fee last?',
-      answer: 'Our 15% fee is collected only until the candidate’s contract end date.'
+      question: 'How long does the 20% fee last?',
+      answer: 'Our 20% fee is collected only until the candidate’s contract end date.'
     },
     {
       question: 'What if I want to change jobs after being placed?',
@@ -83,7 +83,7 @@ const Pricing: React.FC = () => {
                 Simple, Transparent Pricing
               </h2>
               <p className="text-xl text-gray-600 dark:text-gray-300">
-                Our 85/15 income split model aligns our success with yours
+                Our 80/20 income split model aligns our success with yours
               </p>
             </div>
 
@@ -91,13 +91,13 @@ const Pricing: React.FC = () => {
               {/* Your Share */}
               <div className="card p-8 text-center border-2 border-[#00c896]">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-[#00c896] text-white rounded-full mb-6">
-                  <span className="text-2xl font-bold">85%</span>
+                  <span className="text-2xl font-bold">80%</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                   You Keep
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  85% of your salary goes directly to you, permanently
+                  80% of your salary goes directly to you, permanently
                 </p>
                 <ul className="space-y-2 text-left">
                   <li className="flex items-center text-gray-600 dark:text-gray-300">
@@ -118,13 +118,13 @@ const Pricing: React.FC = () => {
               {/* Our Share */}
               <div className="card p-8 text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 rounded-full mb-6">
-                  <span className="text-2xl font-bold">15%</span>
+                  <span className="text-2xl font-bold">20%</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                   We Earn
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  15%
+                  20%
                 </p>
                 <ul className="space-y-2 text-left">
                   <li className="flex items-center text-gray-600 dark:text-gray-300">
@@ -177,14 +177,14 @@ const Pricing: React.FC = () => {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#00c896] mb-2">$10,600</div>
+                  <div className="text-3xl font-bold text-[#00c896] mb-2">$10,000</div>
                   <div className="text-gray-600 dark:text-gray-300">Your Monthly Take-Home</div>
-                  <div className="text-sm text-gray-500 dark:text-gray-400">85%</div>
+                  <div className="text-sm text-gray-500 dark:text-gray-400">80%</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">$1,800</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$2,500</div>
                   <div className="text-gray-600 dark:text-gray-300">Our Monthly Fee</div>
-                  <div className="text-sm text-gray-500 dark:text-gray-400">(15% for 12 months)</div>
+                  <div className="text-sm text-gray-500 dark:text-gray-400">(20% per month)</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-500 mb-2"></div>

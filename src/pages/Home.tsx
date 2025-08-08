@@ -103,7 +103,7 @@ const Home: React.FC = () => {
         <div className="container-custom text-center bg-white/90 dark:bg-gray-900/80 p-12 rounded-xl shadow-xl">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
             Land Your Dream Developer Job in{' '}
-            <span className="text-blue-600 dark:text-blue-400">15–20 Days</span>{' '}— Guaranteed
+            <span className="text-blue-600 dark:text-blue-400">15 Days</span>{' '}— Guaranteed
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-10">
             Skip the job boards. Let us apply for you while you focus on getting hired.
