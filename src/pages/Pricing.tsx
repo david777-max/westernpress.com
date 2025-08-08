@@ -172,7 +172,7 @@ const Pricing: React.FC = () => {
                     </span>
                   </div>
                   <p className="mt-1 text-gray-600 dark:text-gray-300">
-                    After the initial contract ends, you keep 100%.
+                    
                   </p>
                 </div>
               </div>
